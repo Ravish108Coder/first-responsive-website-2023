@@ -16,6 +16,8 @@ span{
   height: 200px;
   margin-bottom: 10px;
 }
+
+
 @media (max-width: 680px){
   .logo{
     width: 100px;
@@ -26,12 +28,16 @@ span{
     font-size: 3.5rem;
   }
   .card img{
-    display: inline-block;
+    display: block;
     width: 100%;
     object-fit: cover;
   }
   .card{
     text-align: justify;
+    margin-bottom: 50px;
+  }
+  .card h2{
+    margin-top: 0;
   }
 }
 
@@ -41,6 +47,7 @@ span{
   .card img{
     float: left;
     margin-right: 50px;
+    
   }
   .card{
     display: inline-block;
